@@ -1,0 +1,5 @@
+project: avmand/mayhem-cmake-example                                                                                                           
+target: fuzzme
+image: ghcr.io/avmand/fuzzme:latest                                                                                                            
+cmds:                                                                                                                                          
+- cmd: /fuzzme
